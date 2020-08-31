@@ -1,0 +1,33 @@
+{
+  "Credentials": {
+    "ValidEmail": "automation.testuser",
+    "ValidPassword": "Aut20191011T",
+    "InvalidEmail": "test@mail.com",
+    "InvalidPassword": "12345"
+  },
+  "contentOfLoginPageAssertion":{
+      "checkVisibilty":"be.visible",
+      "SignInText": "Please Sign In"
+  },
+  "loginFormAssertions":{
+      "invalidCrendentialAlert": "These credentials do not match our records. ()",
+      "passwordRequiredAlert" : " The password field is required. ()",
+      "usernameRequiredAlert" : " The userid field is required. ()"
+  },
+  "staticStrings":{
+    "dialogTitle": "BRANCH TO USE:",
+    "listtextCladding" : "Cladding",
+    "usernameRequiredAlert" : " The userid field is required. ()"
+},
+  "outputLogsLoginPage":{
+      "logoImageLoginPage":"Logo Image is displaying on Login page",
+      "PleaseSignInText":"Please Sign In - Text is visible",
+      "userNameFieldVisibilty":"User Name Field is visible",
+      "passwordFieldVisibilty":"Password field is visible",
+      "loginPageVisible":"Login Button is visible",
+      "loggedIn":"You are logged in",
+      "InvalidCredLog": "Invalid credentials Not logged in",
+      "RequiredPassLog": "password is required. Not logged in",
+      "RequiredUserNameLog": "username is required. Not logged in"
+  } 
+}
