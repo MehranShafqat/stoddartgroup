@@ -21,6 +21,7 @@ const objHome = new pageHome()
         cy.get(objHome.nepDd).click().log("click on NDP")
         cy.get(objHome.register).click().log("click on Quote and order register")
         cy.get(objHome.tableView).should('be.visible').log("table should visible")
+        cy.get(objHome.customerColumn).should('be.visible').log("Customer columm should visible")
         
     })
  })
