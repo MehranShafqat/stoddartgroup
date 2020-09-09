@@ -29,5 +29,12 @@
       "InvalidCredLog": "Invalid credentials Not logged in",
       "RequiredPassLog": "password is required. Not logged in",
       "RequiredUserNameLog": "username is required. Not logged in"
-  } 
+  } ,
+  "inputData":{
+    "referenceNo":"6785",
+    "qouteNo":"4397",
+    "siteName":"L 183 BLACKBERRY WY LININGS RIPLEY 4306",
+    "jobNo":"4411"
+
+  }
 }

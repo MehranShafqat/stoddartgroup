@@ -10,6 +10,9 @@ class pageHome{
         this.txtStreet="#filter_street";
         this.txtSuburb="#filter_suburb";
         this.txtEstimator="#filter_estimator";
+        this.tdRefNo="//table[@id='regTable']//td[1]"
+        this.tdStatusNo="//table[@id='regTable']//td[11]"
+        this.tdSiteName="//table[@id='regTable']//td[4]"
         
 
 
