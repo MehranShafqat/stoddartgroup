@@ -1,20 +1,17 @@
-const data = require('../../fixtures/'+Cypress.env('dataFile')+'')
+const data = require('../../fixtures/' + Cypress.env('dataFile') + '')
 import pageHome from '../../support/PageObjects/pageHome';
 const objHome = new pageHome()
 
- 
 
- describe ('Login TestCases for STODDARTGROUP', function ()
- {
-    it('Login TC with correct Email and Password', function()
-    {
+
+describe('Login TestCases for STODDARTGROUP', function () {
+    it('Login TC with correct Email and Password', function () {
         cy.login()
     })
-    it('Assert Table display on NEP', function()
-    {
+    it('Assert Table display on NEP', function () {
         cy.login()
         cy.server()
-        cy.route("GET", '' +Cypress.config().baseUrl+ '/notifications/new').as('xhrNotification')
+        cy.route("GET", '' + Cypress.config().baseUrl + '/notifications/new').as('xhrNotification')
         cy.get(objHome.ullistCladding).click().log("click on Cladding")
         cy.get(objHome.nepDd).should('be.visible')
         cy.wait('@xhrNotification').its('status').should('eq', 200)
@@ -22,6 +19,6 @@ const objHome = new pageHome()
         cy.get(objHome.register).click().log("click on Quote and order register")
         cy.get(objHome.tableView).should('be.visible').log("table should visible")
         cy.get(objHome.customerColumn).should('be.visible').log("Customer columm should visible")
-        
+
     })
- })
+})

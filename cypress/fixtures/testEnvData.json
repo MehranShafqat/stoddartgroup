@@ -5,36 +5,35 @@
     "InvalidEmail": "test@mail.com",
     "InvalidPassword": "12345"
   },
-  "contentOfLoginPageAssertion":{
-      "checkVisibilty":"be.visible",
-      "SignInText": "Please Sign In"
+  "contentOfLoginPageAssertion": {
+    "checkVisibilty": "be.visible",
+    "SignInText": "Please Sign In"
   },
-  "loginFormAssertions":{
-      "invalidCrendentialAlert": "These credentials do not match our records. ()",
-      "passwordRequiredAlert" : " The password field is required. ()",
-      "usernameRequiredAlert" : " The userid field is required. ()"
+  "loginFormAssertions": {
+    "invalidCrendentialAlert": "These credentials do not match our records. ()",
+    "passwordRequiredAlert": " The password field is required. ()",
+    "usernameRequiredAlert": " The userid field is required. ()"
   },
-  "staticStrings":{
+  "staticStrings": {
     "dialogTitle": "BRANCH TO USE:",
-    "listtextCladding" : "Cladding",
-    "usernameRequiredAlert" : " The userid field is required. ()"
-},
-  "outputLogsLoginPage":{
-      "logoImageLoginPage":"Logo Image is displaying on Login page",
-      "PleaseSignInText":"Please Sign In - Text is visible",
-      "userNameFieldVisibilty":"User Name Field is visible",
-      "passwordFieldVisibilty":"Password field is visible",
-      "loginPageVisible":"Login Button is visible",
-      "loggedIn":"You are logged in",
-      "InvalidCredLog": "Invalid credentials Not logged in",
-      "RequiredPassLog": "password is required. Not logged in",
-      "RequiredUserNameLog": "username is required. Not logged in"
-  } ,
-  "inputData":{
-    "referenceNo":"6785",
-    "qouteNo":"4397",
-    "siteName":"L 183 BLACKBERRY WY LININGS RIPLEY 4306",
-    "jobNo":"4411"
-
+    "listtextCladding": "Cladding",
+    "usernameRequiredAlert": " The userid field is required. ()"
+  },
+  "outputLogsLoginPage": {
+    "logoImageLoginPage": "Logo Image is displaying on Login page",
+    "PleaseSignInText": "Please Sign In - Text is visible",
+    "userNameFieldVisibilty": "User Name Field is visible",
+    "passwordFieldVisibilty": "Password field is visible",
+    "loginPageVisible": "Login Button is visible",
+    "loggedIn": "You are logged in",
+    "InvalidCredLog": "Invalid credentials Not logged in",
+    "RequiredPassLog": "password is required. Not logged in",
+    "RequiredUserNameLog": "username is required. Not logged in"
+  },
+  "inputData": {
+    "referenceNo": "6785",
+    "qouteNo": "4397",
+    "siteName": "L 183 BLACKBERRY WY LININGS RIPLEY 4306",
+    "jobNo": "4411"
   }
 }

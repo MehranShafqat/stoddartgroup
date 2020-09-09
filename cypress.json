@@ -1,20 +1,20 @@
 {
   "baseUrl": "https://test-contractplus.stoddartgroup.com.au",
   "env": {
-      "dataFile": "testEnvData"
+    "dataFile": "testEnvData"
   },
-    "chromeWebSecurity": false,
-    "defaultCommandTimeout": 40000,
-    "requestTimeout": 120000,
-    "responseTimeout": 120000,
-    "pageLoadTimeout": 120000,
-    "reporter": "../node_modules/mochawesome/src/mochawesome.js",
-    "reporterOptions": {
-      "reportTitle": "Automtion Test Suite Report",
-      "overwrite": false,
-      "html": false,
-      "json": true,
-      "timestamp": "mmddyyyy_HHMMss"
-    },
-    "screenshotsFolder": "TestReport/assets"
-  }
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 40000,
+  "requestTimeout": 120000,
+  "responseTimeout": 120000,
+  "pageLoadTimeout": 120000,
+  "reporter": "../node_modules/mochawesome/src/mochawesome.js",
+  "reporterOptions": {
+    "reportTitle": "Automtion Test Suite Report",
+    "overwrite": false,
+    "html": false,
+    "json": true,
+    "timestamp": "mmddyyyy_HHMMss"
+  },
+  "screenshotsFolder": "TestReport/assets"
+}
